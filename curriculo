@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Curriculum </title>
+  <style>
+    body{
+      background-color:rgb(210, 238, 247);
+    }
+
+    .contenedor{
+      font-style: oblique;
+      text-align: center;
+      color: black;
+      background-color: rgb(121, 199, 225);
+      border-radius: 15px;
+    }
+
+    .subtitulos{
+      background-color:rgb(103, 106, 246);
+      color:rgb(0, 28, 80);
+      text-align: center;
+    }
+
+    .subtitulo{
+      color:rgb(0, 28, 80);
+      text-align: center;
+    }
+
+    .td{
+      color:lightgray;
+    }
+
+    section{
+      background-color: aliceblue;
+      border: 1px solid black;
+      border-radius: 6px;
+    }
+
+    .tablas{
+      padding: 5px;
+      margin: 2px;
+    }
+
+    .parrafo{
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="contenedor">
+    <header><br>
+      <img src="https://i.pinimg.com/564x/9d/6b/9d/9d6b9db2dcb0526a09b89fb35d075c72.jpg" alt="Foto de perfil" width="15%" height="15%" style="border: solid black 2px; border-radius: 10px;">
+      <h2> Sebastián Gómez Rivera </h2>
+      <p class="parrafo"> Ingeniero de Sistemas </p>
+      <p class="parrafo"> sebasgom.510@gmail.com </p>
+    </header><hr>
+  </div>
+ 
+  <nav style="border: solid rgb(0, 0, 0) 2px; border-radius: 25px;">
+    <h2 class="subtitulo"> BARRA DE NAVEGACIÓN</h2>
+    <ol>
+      <li> <a href="#habilidades"> Habilidades Informáticas </a> </li>
+      <li> <a href="#experiencia"> Experiencia Laboral </a> </li>
+      <li> <a href="#formacion"> Formación Acádemica </a> </li>
+      <li> <a href="#idiomas"> Idiomas </a> </li>
+      <li> <a href="#tecnologias"> Conocimiento de Tecnologias </a> </li>
+      <li> <a href="#contacto"> Datos de contacto </a> </li>
+    </ol>
+  </nav><br><br>
+
+  <section id="habilidades">
+    <h2 class="subtitulos">HABILIDADES INFORMÁTICAS</h2>
+    <ul>
+      <li>Programación y manejo de tecnologias como Lenguaje C, Java, JavaScript, HTML y CSS.</li>
+      <li>Manejo de bases de datos MySQL y PostgreSQL</li>
+      <li>Desarrollo de aplicaciones móviles y web. </li>
+    </ul>
+  </section><br>
+
+  <section id="experiencia">
+    <h2 class="subtitulos">EXPERIENCIA LABORAL</h2>
+    <ul>
+      <li>Desarrollo de aplicaciones web para el sector de la salud</li>
+      <li>Programación con Java haciendo uso del Framework de SpringBoot</li>
+      <li>Diseño de bases de datos con MySQL en Workbench</li>
+      <li>Implementación de tecnologías como Thymeleaf, HTML, CSS y Bootstrap</li>
+    </ul>
+  </section><br>
+
+  <section id="formacion">
+    <h2 class="subtitulos">FORMACIÓN</h2>
+    <ul>
+      <li>Ingeniero de Sistemas <br> <a href="https://www.uceva.edu.co/" target="_blank">UCEVA</a> - 2025</li><br>
+      <li>Tenico en Sistemas Agropecuarios y Ecológicos <br><a href="https://www.sena.edu.co/es-co/Paginas/default.aspx" target="_blank">SENA</a> - 2018</li>
+    </ul>
+  </section><br>
+
+  <section id="idiomas">
+    <h2 class="subtitulos">IDIOMAS</h2>
+      <table border="1" width="25%">
+        <thead>
+          <tr>
+            <th>IDIOMAS</th>
+            <th>NIVEL</th>
+          </tr>
+        </thead>
+        
+        <tbody>
+          <tr>
+            <td>Inglés</td>
+            <td>B2</td>
+          </tr>
+          <tr>
+            <td>Francés</td>
+            <td>A2</td>
+          </tr>
+        </tbody>
+      </table>
+  </section><br>
+
+  <section id="tecnologias">
+    <h2 class="subtitulos">TECNOLOGIAS</h2>
+    <table border="1" width="50%" class="tablas">
+      <thead>
+        <th>TECNOLOGIAS</th>
+        <th>NIVEL</th>
+        <th>AÑO</th>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Lenguaje C</td>
+          <td>Intermedio</td>
+          <td>2020</td>
+        </tr>
+
+        <tr>
+          <td>Java</td>
+          <td>Avanzado</td>
+          <td>2020</td>
+        </tr>
+
+        <tr>
+          <td>HTML</td>
+          <td>Intermedio</td>
+          <td>2021</td>
+        </tr>
+
+        <tr>
+          <td>CSS</td>
+          <td>Intermedio</td>
+          <td>2021</td>
+        </tr>
+
+        <tr>
+          <td>JavaScript</td>
+          <td>Básico</td>
+          <td>2022</td>
+        </tr>
+
+        <tr>
+          <td>Python</td>
+          <td>Básico</td>
+          <td>2023</td>
+        </tr>
+
+        <tr>
+          <td>SpringBoot</td>
+          <td>Intermedio</td>
+          <td>2023</td>
+        </tr>
+
+        <tr>
+          <td>Git</td>
+          <td>Básico</td>
+          <td>2023</td>
+        </tr>
+      </tbody>
+    </table>
+  </section><br>
+
+  <section id="contacto">
+    <h2 class="subtitulos"> PARA CONTACTARSE </h2>
+    <!--<h4 style="text-align: center;">INGRESE SUS DATOS PARA CONTACTARLO</h4>-->
+    <fieldset style="width: 30%; margin: 0 auto;">
+      <legend> <b>Ingrese sus datos para contactarlo</b></legend>
+      <form>
+        <table width="40%">
+          <thead>
+            <th></th>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Nombre: </td>
+              <td> <input type="text" maxlength="50" placeholder="Nombre completo" required> </td>
+            </tr>
+
+            <tr>
+              <td>Asunto: </td>
+              <td> <input type="text" required> </td>
+            </tr>
+
+            <tr>
+              <td>Correo: </td>
+              <td> <input type="email" maxlength="60" placeholder="Email" required> </td>
+            </tr>
+
+            <tr>
+              <td>Telefono: </td>
+              <td> <input type="number" placeholder="0" maxlength="10" required> </td>
+            </tr>
+
+            <tr>
+              <td>Motivo: </td>
+              <td> <textarea rows="4" cols="22" required></textarea> </td>
+            </tr>
+          </tbody>
+        </table>
+        <button type="submit" style="align-items: center;">Enviar</button>
+        <button type="reset" style="align-items: center;">Borrar</button>
+      </form>
+    </fieldset><br>
+  </section>
+
+</body>
+</html>
