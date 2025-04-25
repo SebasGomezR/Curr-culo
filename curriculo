@@ -3,49 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title> Curriculum </title>
-  <style>
-    body{
-      background-color:rgb(210, 238, 247);
-    }
-
-    .contenedor{
-      font-style: oblique;
-      text-align: center;
-      color: black;
-      background-color: rgb(121, 199, 225);
-      border-radius: 15px;
-    }
-
-    .subtitulos{
-      background-color:rgb(103, 106, 246);
-      color:rgb(0, 28, 80);
-      text-align: center;
-    }
-
-    .subtitulo{
-      color:rgb(0, 28, 80);
-      text-align: center;
-    }
-
-    .td{
-      color:lightgray;
-    }
-
-    section{
-      background-color: aliceblue;
-      border: 1px solid black;
-      border-radius: 6px;
-    }
-
-    .tablas{
-      padding: 5px;
-      margin: 2px;
-    }
-
-    .parrafo{
-      font-size: 1.2rem;
-    }
-  </style>
 </head>
 
 <body>
@@ -75,7 +32,7 @@
     <ul>
       <li>Programación y manejo de tecnologias como Lenguaje C, Java, JavaScript, HTML y CSS.</li>
       <li>Manejo de bases de datos MySQL y PostgreSQL</li>
-      <li>Desarrollo de aplicaciones móviles y web. </li>
+      <li>Desarrollo de aplicaciones Web y Móvil. </li>
     </ul>
   </section><br>
 
