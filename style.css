@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(210, 238, 247);
+  }
+
+  .contenedor{
+    font-style: oblique;
+    text-align: center;
+    color: black;
+    background-color: rgb(121, 199, 225);
+    border-radius: 15px;
+  }
+
+  .subtitulos{
+    background-color:rgb(103, 106, 246);
+    color:rgb(0, 28, 80);
+    text-align: center;
+  }
+
+  .subtitulo{
+    color:rgb(0, 28, 80);
+    text-align: center;
+  }
+
+  .td{
+    color:lightgray;
+  }
+
+  section{
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 6px;
+  }
+
+  .tablas{
+    padding: 5px;
+    margin: 2px;
+  }
+
+  .parrafo{
+    font-size: 1.2rem;
+  }
