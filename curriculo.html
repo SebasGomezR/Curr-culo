@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title> Curriculum </title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -13,18 +14,18 @@
       <p class="parrafo"> Ingeniero de Sistemas </p>
       <p class="parrafo"> sebasgom.510@gmail.com </p>
     </header><hr>
-  </div>
+  </div><br>
  
-  <nav style="border: solid rgb(0, 0, 0) 2px; border-radius: 25px;">
-    <h2 class="subtitulo"> BARRA DE NAVEGACIÓN</h2>
-    <ol>
-      <li> <a href="#habilidades"> Habilidades Informáticas </a> </li>
-      <li> <a href="#experiencia"> Experiencia Laboral </a> </li>
-      <li> <a href="#formacion"> Formación Acádemica </a> </li>
+  <h2 class="barra-navegacion">BARRA DE NAVEGACIÓN</h2>
+  <nav>
+    <ul>
+      <li> <a href="#habilidades"> Habilidades </a> </li>
+      <li> <a href="#experiencia"> Experiencia </a> </li>
+      <li> <a href="#formacion"> Formación </a> </li>
       <li> <a href="#idiomas"> Idiomas </a> </li>
-      <li> <a href="#tecnologias"> Conocimiento de Tecnologias </a> </li>
-      <li> <a href="#contacto"> Datos de contacto </a> </li>
-    </ol>
+      <li> <a href="#tecnologias"> Conocimientos </a> </li>
+      <li> <a href="#contacto"> Contacto </a> </li>
+    </ul>
   </nav><br><br>
 
   <section id="habilidades">
@@ -34,7 +35,7 @@
       <li>Manejo de bases de datos MySQL y PostgreSQL</li>
       <li>Desarrollo de aplicaciones Web y Móvil. </li>
     </ul>
-  </section><br>
+  </section><br><br>
 
   <section id="experiencia">
     <h2 class="subtitulos">EXPERIENCIA LABORAL</h2>
@@ -44,7 +45,7 @@
       <li>Diseño de bases de datos con MySQL en Workbench</li>
       <li>Implementación de tecnologías como Thymeleaf, HTML, CSS y Bootstrap</li>
     </ul>
-  </section><br>
+  </section><br><br>
 
   <section id="formacion">
     <h2 class="subtitulos">FORMACIÓN</h2>
@@ -52,10 +53,10 @@
       <li>Ingeniero de Sistemas <br> <a href="https://www.uceva.edu.co/" target="_blank">UCEVA</a> - 2025</li><br>
       <li>Tenico en Sistemas Agropecuarios y Ecológicos <br><a href="https://www.sena.edu.co/es-co/Paginas/default.aspx" target="_blank">SENA</a> - 2018</li>
     </ul>
-  </section><br>
+  </section><br><br>
 
   <section id="idiomas">
-    <h2 class="subtitulos">IDIOMAS</h2>
+    <h2 class="subtitulos">IDIOMAS</h2><br>
       <table border="1" width="25%">
         <thead>
           <tr>
@@ -75,11 +76,11 @@
           </tr>
         </tbody>
       </table>
-  </section><br>
+  </section><br><br>
 
   <section id="tecnologias">
-    <h2 class="subtitulos">TECNOLOGIAS</h2>
-    <table border="1" width="50%" class="tablas">
+    <h2 class="subtitulos">TECNOLOGIAS</h2><br>
+    <table border="2px" width="50%">
       <thead>
         <th>TECNOLOGIAS</th>
         <th>NIVEL</th>
@@ -136,14 +137,13 @@
         </tr>
       </tbody>
     </table>
-  </section><br>
+  </section><br><br>
 
   <section id="contacto">
-    <h2 class="subtitulos"> PARA CONTACTARSE </h2>
-    <!--<h4 style="text-align: center;">INGRESE SUS DATOS PARA CONTACTARLO</h4>-->
+    <h2 class="subtitulos"> PARA CONTACTARSE </h2><br>
     <fieldset style="width: 30%; margin: 0 auto;">
       <legend> <b>Ingrese sus datos para contactarlo</b></legend>
-      <form>
+      <form id="form-contacto">
         <table width="40%">
           <thead>
             <th></th>
@@ -181,6 +181,14 @@
       </form>
     </fieldset><br>
   </section>
+
+  <script>
+    document.getElementById("form-contacto").addEventListener("submit", function(event) {
+      event.preventDefault();
+      alert("¡Gracias! Pronto me comunicaré con usted.");
+      this.reset();
+    });
+  </script>
 
 </body>
 </html>
